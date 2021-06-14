@@ -2,17 +2,16 @@
   outline: 2px red dashed;
 } */
 
+/***responsive****/
+
+/****body*****/
+
 body {
   font-family: "Raleway", sans-serif;
   color: black;
   font-weight: normal;
-
-  width: 1440px;
+  width: auto;
   height: 1884px;
-  flex-wrap: wrap;
-}
-
-#Bloc_page {
   margin-left: 48px;
   margin-right: 48px;
 }
@@ -25,49 +24,68 @@ header {
   display: flex;
 }
 
-#titre_principal {
-  display: flex;
+#bloc_logo {
   flex-grow: 1;
+
+  display: flex;
+  align-items: center;
 }
 
 #logo img {
   width: 96px;
   height: 30px;
-  margin-top: 35px;
 }
 
 h1 {
   font-size: 1.2em;
   color: black;
   font-weight: bold;
-  margin: 30px 0px 0px 0px;
+}
+
+.p_header {
+  font-size: 0.8em;
+  margin-top: 5px;
+  font-weight: normal;
+  margin-left: 0px;
 }
 
 p {
   font-size: 0.8em;
-  margin-top: 5px;
+  margin-top: 8px;
+  margin-bottom: 9px;
   font-weight: normal;
-  margin-left: 5px;
+  margin-left: 0px;
 }
 
 /***navbar**/
+@media screen and (max-width: 350px) {
+  .menu {
+    flex-direction:row-reverse;
+    
+  }
+}
+
+.navbar {
+  display: flex;
+  
+
+}
 
 .menu {
   display: flex;
   flex-direction: row;
-  margin-top: 35px;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
 .menu a {
   text-decoration: none;
   margin: 0px 20px;
 }
-
-.menu li {
-  list-style: none;
+.border,
+.inscription {
   font-size: 0.9em;
   font-weight: bold;
-  list-style-type: none;
 }
 
 .inscription {
@@ -77,77 +95,134 @@ p {
 
 .border:hover {
   color: #0065fc;
-  border-top: 2px solid #0065fc;
+  border-top: 3px solid #0065fc;
   padding-top: 30px;
 }
 
 /*******bloc recherche****/
 
-#container_recherche {
+.container_recherche {
   display: flex;
-  flex-direction: row;
-  margin-top: 25px;
-  width: 423px;
-  height: 51px;
+  width: 400px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  align-items: center;
 }
 
-.bloc_recherche {
+.icon_position {
+  height: 50px;
+  width: 50px;
+  border-radius: 10px 0px 0px 10px;
+  background-color: #f2f2f2;
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.champs_rechercher {
+.champ_recherche {
+  height: 50px;
+  width: 230px;
+  font-size: 18px;
+  color: black;
+  font-weight: bold;
+  border: #f2f2f2 1px solid;
+  padding-left: 10px;
+}
+
+.boutton_rechercher {
+  display: flex;
+  height: 50px;
+  width: 120px;
+  background-color: #0065fc;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 0px 10px 10px 0px;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 600px) {
+  .boutton_rechercher {
+    display: none;
+  }
+
+  .boutton-loupe {
+    height: 50px;
+    width: 50px;
+    border-radius: 10px 10px 10px 10px;
+    background-color: #0065fc;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .boutton-loupe {
+    display: none;
+  }
 }
 
 /*******filtre****/
 
+@media screen and (max-width: 1200px) {
+
+ 
+  .filtre_onglet {
+    margin-left: 0px;
+    margin-bottom: 15px;
+  }
+}
+
+
+
 #container_filtre {
-  width: auto;
-  height: 70px;
+  display: flex;
 }
 
 .bloc_filtre {
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0;
+  list-style: none;
   align-items: center;
+  cursor: pointer;
 }
 
 .filtre_titre {
-  width: 50px;
-  margin-bottom: 25px;
-}
-
-.bloc_pave {
-  display: flex;
-}
-
-.pave {
-  border: rgb(151, 149, 149) 1px solid;
-  border-radius: 50px 50px 50px 50px;
   display: flex;
   align-items: center;
-  padding: 0px 30px 0px 0px;
-  margin: 0px 30px 0px 30px;
+}
+.filtre_onglet {
+  margin-left: 25px;
+  font-weight: bold;
+  border: rgb(207, 204, 204) 2px solid;
+  padding: 0px 20px 0px 0px;
+  margin-top: 0px;
+  border-radius: 50px 50px 50px 50px;
+  text-align: center;
+  align-items: center;
 }
 
-.filtre_intitulé {
-  font-size: 1em;
-  font-weight: bold;
+.filtre_onglet:hover {
+  background-color: #deebff;
 }
 
 .filtre_icon {
+  background-color: #deebff;
   color: #0065fc;
-  padding-left: 2px;
+  border: #deebff 2px solid;
+  padding: 18px;
+  border-radius: 25px 25px 25px 25px;
+  margin-right: 15px;
 }
 
-.filtre_pave_icon {
-  background-color: #deebff;
-  border-radius: 20px 20px 20px 20px;
-  width: 30px;
-  height: 30px;
-  padding: 6px 4px 6px 11px;
-}
-.filtre_pave_icon:hover
-{
-  color:black;
+.filtre_icon:hover {
+  background-color: white;
+  border: white 2px solid;
 }
 
 /*******point info****/
@@ -172,6 +247,7 @@ p {
   margin-top: 6px;
   font-weight: normal;
   font-size: 0.9em;
+  margin-left: 0px;
 }
 
 /**container heberge+populaire**/
@@ -230,7 +306,10 @@ p {
   margin-bottom: 1px;
   margin-left: 5px;
 }
-
+.bold_tarif {
+  font-weight: bold;
+  color: black;
+}
 .heb_nom_hotel,
 p {
   margin-left: 10px;
@@ -246,6 +325,7 @@ h5 {
   font-size: 1em;
   margin-left: 35px;
   margin-top: 15px;
+  cursor: pointer;
 }
 
 /*********section populaire***********/
