@@ -10,9 +10,9 @@ body {
   font-family: "Raleway", sans-serif;
   color: black;
   font-weight: normal;
-  width: 1440px;
+ 
   height: 1884px;
-  margin-left: 48px;
+ 
   margin-right: 48px;
 }
 
@@ -139,7 +139,7 @@ p {
 }
 
 
-
+/*******filtre****/
 
 #container_filtre {
   display: flex;
