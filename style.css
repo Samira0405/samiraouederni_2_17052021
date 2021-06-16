@@ -10,10 +10,8 @@ body {
   font-family: "Raleway", sans-serif;
   color: black;
   font-weight: normal;
- 
-  height: 1884px;
- 
   margin-right: 48px;
+  max-width:1140px;
 }
 
 /*******header*********/

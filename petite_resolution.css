@@ -131,6 +131,8 @@ justify-content: center;
 }
 
 #bloc_activites {
+  display:flex;
+  flex-direction: column;
 }
 
 #footer {
