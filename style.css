@@ -10,7 +10,7 @@ body {
   font-family: "Raleway", sans-serif;
   color: black;
   font-weight: normal;
-  width: auto;
+  width: 1440px;
   height: 1884px;
   margin-left: 48px;
   margin-right: 48px;
@@ -36,10 +36,13 @@ header {
   height: 30px;
 }
 
+
+
 h1 {
   font-size: 1.2em;
   color: black;
   font-weight: bold;
+  display: block;
 }
 
 .p_header {
@@ -58,17 +61,10 @@ p {
 }
 
 /***navbar**/
-@media screen and (max-width: 350px) {
-  .menu {
-    flex-direction:row-reverse;
-    
-  }
-}
+
 
 .navbar {
   display: flex;
-  
-
 }
 
 .menu {
@@ -142,39 +138,6 @@ p {
   justify-content: center;
 }
 
-@media screen and (max-width: 600px) {
-  .boutton_rechercher {
-    display: none;
-  }
-
-  .boutton-loupe {
-    height: 50px;
-    width: 50px;
-    border-radius: 10px 10px 10px 10px;
-    background-color: #0065fc;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-}
-
-@media screen and (min-width: 600px) {
-  .boutton-loupe {
-    display: none;
-  }
-}
-
-/*******filtre****/
-
-@media screen and (max-width: 1200px) {
-
- 
-  .filtre_onglet {
-    margin-left: 0px;
-    margin-bottom: 15px;
-  }
-}
 
 
 
@@ -252,7 +215,7 @@ p {
 
 /**container heberge+populaire**/
 
-#blocsection1 {
+#bloc_heb_pop {
   display: flex;
   flex-direction: row;
   justify-content: space-between;

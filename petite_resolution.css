@@ -1,0 +1,100 @@
+@media screen and (max-width: 1024px) {
+  body {
+    margin: auto;
+  }
+
+  header {
+    width: auto;
+    
+  }
+
+#bloc_logo{
+height: auto;
+}
+
+
+.trait_bleu:hover {
+    display: none;
+    color: #0065fc;
+  }
+
+.border{
+margin-top: 50px;
+
+  }
+.trait_bleu{
+justify-content:flex-start;
+
+}
+
+
+  .menu {
+    flex-wrap: wrap-reverse;
+    
+  }
+
+  .inscription {
+    text-align: right;
+    margin-top: 0px;
+  }
+
+  .titre1 {
+  }
+
+}
+
+  @media screen and (max-width: 600px){
+
+  .boutton_rechercher {
+    display: none;
+  }
+
+  .boutton-loupe {
+    height: 50px;
+    width: 50px;
+    border-radius: 10px 10px 10px 10px;
+    background-color: #0065fc;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .boutton-loupe {
+    display: none;
+  }
+
+ /*******filtre****/
+ .filtre_onglet {
+  margin-left: 0px;
+  margin-bottom: 15px;
+}
+
+}
+
+
+
+
+#container_filtre {
+}
+
+.info {
+}
+
+#bloc_heb_pop {
+}
+
+#section_hebergement {
+}
+
+.heb_groupe_article {
+}
+
+#section_populaire {
+}
+
+#bloc_activites {
+}
+
+#footer {
+}
