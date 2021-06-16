@@ -89,11 +89,13 @@ p {
   font-weight: bold;
 }
 
-.trait_bleu:hover {
+.border:hover .trait_bleu{
   color: #0065fc;
   border-top: 3px solid #0065fc;
   padding-top: 30px;
+  
 }
+
 
 /*******bloc recherche****/
 
