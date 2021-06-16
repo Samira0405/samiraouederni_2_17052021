@@ -31,11 +31,8 @@ margin-top: 50px;
 justify-content:flex-start;
 
 }
-
-
   .menu {
     flex-wrap: wrap-reverse;
-    
   }
 
   .inscription {

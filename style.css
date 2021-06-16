@@ -89,7 +89,7 @@ p {
   font-weight: bold;
 }
 
-.border:hover {
+.trait_bleu:hover {
   color: #0065fc;
   border-top: 3px solid #0065fc;
   padding-top: 30px;
