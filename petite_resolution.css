@@ -1,15 +1,16 @@
 @media screen and (max-width: 1024px) {
   body {
-    margin: auto;
+    margin-left: 15px;
+    margin-right: 15px;
   }
 
   #container{
-margin-left: 10px;
-margin-right: 10px;
+margin-left: 15px;
+margin-right: 15px;
   }
 
   header {
-    width: auto;
+    
     
   }
 
@@ -26,18 +27,18 @@ height: auto;
 .border{
 margin-top: 50px;
 
-  }
-.trait_bleu{
-justify-content:flex-start;
 
-}
+
+  }
+
+
+
   .menu {
-    flex-wrap: wrap-reverse;
+   
   }
 
   .inscription {
-    text-align: right;
-    margin-top: 0px;
+   
   }
 
 .titre1 {
@@ -46,14 +47,14 @@ flex-wrap: wrap;
     
   }
 
-}
+
 /*******barre de rechercher****/
-  @media screen and (max-width: 600px){
+
 #barre-de-recherche{
 width: 100%;
 justify-content: center;
 align-items: center;
-
+margin-left: 50px;
 }
 
 .boutton_rechercher {
@@ -72,68 +73,64 @@ justify-content: center;
 }
   
 
- @media screen and (min-width: 600px){
-.boutton-loupe {
- display: none;
- }
+ 
+
 }
 
  /*******filtre****/
- @media screen and (max-width: 1024px){
-  
     #container_filtre {
       display: inline-block;
       width: auto;
     }
     
     .bloc_filtre {
-      
-      flex-direction: column;
       flex-wrap: wrap;
-      padding: 0;
-      list-style: none;
-      justify-content: center;
-      align-items: flex-start;
-      cursor: pointer;
     }
     
+    .filtre_onglet {
+      margin-right: 25px;
+      margin-top: 15px;
+    }
+
     .filtre_titre {
      margin-left: 10px;
-      align-items: center;
     }
 
-    
-   
     .filtre_onglet {
       margin-left: 0px;
-     margin-bottom: 15px;
     }
     
-  }
-
-
-#container_filtre {
-}
-
-.info {
-}
-
+/*******container hebergement + populaire****/
 #bloc_heb_pop {
+  flex-direction: column-reverse;
+  justify-content: space-around;
+  height: auto;
 }
+
+/*******populaire****/
+
 
 #section_hebergement {
+
 }
 
-.heb_groupe_article {
+
+/*******hebergement****/
+
 }
 
-#section_populaire {
-}
 
-#bloc_activites {
-  display:flex;
-  flex-direction: column;
-}
+/*******activites****/
+/* #bloc_activites {
+  display: flex;
+  flex-wrap: wrap;
+  width: auto;
+  height: auto;
+  margin-top: 20px;
+} */
+
+
+
 
 #footer {
 }
