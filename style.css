@@ -13,25 +13,79 @@ body {
   max-width: 1440px;
 }
 
+a {
+  text-decoration: none;
+}
 /*******header*********/
 
 header {
   width: auto;
   height: 80px;
-  display: flex;
+
 }
+
+.navbar  {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+    }
+
 
 #bloc_logo {
   flex-grow: 1;
-  display: flex;
   align-items: center;
+  justify-content: center;
+  margin-top: 20px;
 }
 
-#logo img {
+.logo img {
   width: 96px;
   height: 30px;
 }
 
+.menu{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.border {
+display: flex;
+padding-top: 40px;
+margin-top: -8px;
+   
+}
+
+.trait_bleu{
+color: black;
+font-size: 0.9em;
+font-weight: bold;
+margin: 0px 30px;
+}
+
+ .sans_border
+ {display: flex;
+   margin-top: 32px;
+ }
+ 
+ .inscription {
+  color: #0065fc;
+  font-size: 0.9em;
+  font-weight: bold;
+  margin: 0px 30px;
+}
+
+ .border:hover {
+   border-top: 2px solid #0065fc;
+ }
+ 
+ .trait_bleu:hover{
+  color: #0065fc;
+ }
+ 
+ 
+/***titre1***/
+}
 h1 {
   font-size: 1.2em;
   color: black;
@@ -54,37 +108,7 @@ p {
   margin-left: 0px;
 }
 
-/***navbar**/
 
-.navbar {
-  display: flex;
-}
-
-.menu {
-  display: flex;
-  align-items: center;
-}
-
-.menu a {
-  text-decoration: none;
-  margin: 0px 20px;
-}
-.border,
-.inscription {
-  font-size: 0.9em;
-  font-weight: bold;
-}
-
-.inscription {
-  color: #0065fc;
-  font-weight: bold;
-}
-
-.trait_bleu:hover {
-  color: #0065fc;
-  border-top: 3px solid #0065fc;
-  padding-top: 30px;
-}
 
 /*******bloc recherche****/
 
@@ -127,6 +151,10 @@ p {
   border-radius: 0px 10px 10px 0px;
   align-items: center;
   justify-content: center;
+}
+
+.boutton-loupe {
+display: none;
 }
 
 /*******filtre****/
@@ -218,7 +246,6 @@ p {
   border-radius: 15px 15px 15px 15px;
   width: 80%;
   height: auto;
-
   justify-content: center;
 }
 
@@ -253,6 +280,7 @@ p {
   width: 98%;
   margin: auto;
   margin-top: 3px;
+  object-fit: cover;
 }
 
 .heb_description {
@@ -293,6 +321,7 @@ h5 {
   height: auto;
 }
 
+
 .bloc_titre_pop {
   display: flex;
   justify-content: space-between;
@@ -326,6 +355,8 @@ h5 {
   margin: 35px 35px 35px 35px;
   border-radius: 20px;
   box-shadow: 3px 5px 3px rgb(233, 226, 226);
+  text-decoration: none;
+  color: black;
 }
 
 .pop_descriptif {
@@ -342,11 +373,6 @@ h5 {
 
 .pop_tarif {
   margin-top: -60px;
-}
-
-a {
-  text-decoration: none;
-  color: black;
 }
 
 img {
@@ -367,12 +393,14 @@ span {
 /**activites**/
 
 #bloc_activites {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  width: 1341px;
-  height: auto;
+display: flex;
+flex-direction: column;
+margin: 20px 0px 20px 0px ;
+ 
+
   
 }
+
 
 .activites_titre {
   font-size: 1.2rem;
@@ -381,14 +409,21 @@ span {
 }
 
 .activites_groupe_article {
+  
+  display: flex;
+}
+
+.pave_activites
+{
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-content: center;
-  flex-wrap: wrap;
-  width: 100%;
-  height: 491px;
-  margin-left: 0px;
+  
+  width: auto;
+ 
+  
+
 }
 
 .activites_intitule {
