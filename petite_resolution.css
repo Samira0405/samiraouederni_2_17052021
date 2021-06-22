@@ -9,7 +9,7 @@
   }
 }
   /***header***/
-@media screen and (max-width: 1040px) {
+@media screen and (max-width: 540px) {
           .navbar {
             flex-wrap: wrap;
           }
@@ -53,15 +53,26 @@
     flex-wrap: wrap;
     margin-top: 40px;
   }
+
+  h1{
+    font-size: 1.5em;
+  }
+
+  .p_header {
+    font-size: 1em;
+    margin-top: 0px;
+    font-weight: normal;
+    margin-left: 0px;
+  }
 }
 
       /*******barre de rechercher****/
         @media screen and (max-width: 540px) {
           .barre-de-recherche {
-            width: auto;
+            width: 105%;
             justify-content: center;
             align-items: center;
-            margin: 20px -30px;
+            
           }
           .boutton_rechercher {
             display: none;
