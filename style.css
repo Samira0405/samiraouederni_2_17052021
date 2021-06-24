@@ -91,7 +91,7 @@ margin: 0px 30px;
   margin-left: 10px;
 }
 
-h1 {
+h2 {
   font-size: 1.2em;
   color: black;
   font-weight: bold;
@@ -121,13 +121,17 @@ p {
 
 .barre-de-recherche {
   display: flex;
+  
+}
+
+.bloc_recherche{
+  display: flex;
   width: 400px;
   margin-top: 20px;
   margin-bottom: 35px;
   align-items: center;
   margin-left: 10px;
 }
-
 .icon_position {
   height: 50px;
   width: 50px;
@@ -229,12 +233,15 @@ font-weight: bold;
 }
 
 /*******point info****/
+.bloc_info
+{display: flex;}
+
+
 .fa-info {
   background-color: white;
   border: #f2f2f2 2px solid;
   color: #0065fc;
   border-radius: 25px 25px 25px 25px;
- 
   padding: 5px 10px;
   margin-right: 10px;
   margin-left: 10px;
