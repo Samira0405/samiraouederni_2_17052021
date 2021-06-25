@@ -477,13 +477,7 @@ max-width: 1350px;
   padding-top: 10px;
 }
 
-.art_bloc1 {
-  background-color: white;
-  box-shadow: 3px 5px 3px rgb(233, 226, 226);
-  border-radius: 15px 15px 15px 15px;
-  width: 90%;
-  height: 443px;
-}
+
 
 .img1 {
   display: flex;
