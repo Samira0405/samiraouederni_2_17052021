@@ -225,19 +225,46 @@
       width: auto;
     }
 
-    .img1 {
-      width: 100%;
-      height: 100%;
-    }
-    .art_bloc1 {
-      width: 90%;
-      height: 90%;
-    }
+   .art_bloc1{
+    margin-bottom: 42px;
+   }
+
+   .art_bloc3{
+    margin-bottom: 42px;
+   }
+   .art_bloc4{
+    margin-bottom: 42px;
+   }
    
-    
+     .img1 {
+      width: 100%;
+      height: 190px;
+    }
 
+    .img2 {
+      width: 100%;
+      height: 190px;
+    }
 
+    .img3 {
+      width: 100%;
+      height: 190px;
+    }
 
+    .img4 {
+      width: 100%;
+      height: 190px;
+    }
+
+    .img5 {
+      width: 100%;
+      height: 190px;
+    }
+
+    .img6 {
+      width: 100%;
+      height: 190px;
+    }
 
    }
   /*******footer****/
