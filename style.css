@@ -5,107 +5,17 @@
 
 
 /****body*****/
-
 body {
   font-family: "Raleway", sans-serif;
   color: black;
   font-weight: normal;
   max-width: 1440px;
   margin: 0px;
-
 }
-
-
+/****général*****/
 a {
   text-decoration: none;
 }
-/*******header*********/
-
-header {
-  
-  max-width: 1440px;
-  margin:auto;
-
-}
-
-.navbar  {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-    }
-
-
-#bloc_logo {
-  flex-grow: 1;
-  align-items: center;
-  justify-content: center;
-  margin-top: 20px;
-}
-
-.logo img {
-  width: 96px;
-  height: 30px;
-}
-
-.menu{
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.border {
-display: flex;
-padding-top: 40px; 
-}
-
-.border_texte{
-color: black;
-font-size: 0.9em;
-font-weight: bold;
-margin: 0px 30px;
-}
-
- .sans_border
- {display: flex;
-  padding-top: 40px;
- }
- 
- .inscription {
-  color: #0065fc;
-  font-size: 0.9em;
-  font-weight: bold;
-  margin: 0px 30px;
-}
-
- .border:hover {
-   border-top: 2px solid #0065fc;
- }
- 
- .border_texte:hover{
-  color: #0065fc;
- }
- 
- 
-/***titre1***/
-.titre1{
-  margin-left: 10px;
-}
-
-h1 {
-  font-size: 1.2em;
-  color: black;
-  font-weight: bold;
-  display: block;
- 
-}
-
-.p_header {
-  font-size: 0.8em;
-  margin-top: 5px;
-  font-weight: normal;
-  
-}
-
 p {
   font-size: 0.8em;
   margin-top: 8px;
@@ -114,16 +24,76 @@ p {
   margin-left: 0px;
   color: black;
 }
-
-
-
+/*******header*********/
+header {
+  max-width: 1440px;
+  margin:auto;
+}
+.navbar  {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#bloc_logo {
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.logo img {
+  width: 96px;
+  height: 30px;
+}
+.menu{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.border {
+display: flex;
+padding-top: 40px; 
+}
+.border_texte{
+color: black;
+font-size: 0.9em;
+font-weight: bold;
+margin: 0px 30px;
+}
+.sans_border{
+  display: flex;
+  padding-top: 40px;
+}
+.inscription {
+  color: #0065fc;
+  font-size: 0.9em;
+  font-weight: bold;
+  margin: 0px 30px;
+}
+.border:hover {
+  border-top: 2px solid #0065fc;
+}
+.border_texte:hover{
+  color: #0065fc;
+} 
+/***titre1***/
+.titre1{
+  margin-left: 10px;
+}
+h1 {
+  font-size: 1.2em;
+  color: black;
+  font-weight: bold;
+  display: block;
+}
+.p_header {
+  font-size: 0.8em;
+  margin-top: 5px;
+  font-weight: normal;
+}
 /*******bloc recherche****/
-
 .barre-de-recherche {
   display: flex;
-  
 }
-
 .bloc_recherche{
   display: flex;
   width: 400px;
@@ -141,7 +111,6 @@ p {
   align-items: center;
   justify-content: center;
 }
-
 .champ_recherche {
   height: 50px;
   width: 220px;
@@ -150,9 +119,7 @@ p {
   font-weight: bold;
   border: #f2f2f2 1px solid;
   padding-left: 20px;
-  
 }
-
 .boutton_rechercher {
   display: flex;
   height: 50px;
@@ -165,61 +132,46 @@ p {
   align-items: center;
   justify-content: center;
 }
-
-
 .boutton_rechercher:hover {
-
   background-color: #f2f2f2;
   color:black;
 }
-
-
-
-
 .boutton-loupe {
-display: none;
+  display: none;
 }
-
 /*******filtre****/
-
 #container_filtre {
   display: flex;
   align-items: center;
   margin-left: 10px;
   margin-bottom: 25px;
-
 }
-
 .bloc_filtre{
-display: flex;
-flex-direction: row;
-
+  display: flex;
+  flex-direction: row;
 }
 .filtre_titre {
- margin-right: 20px;
+  margin-right: 20px;
 }
-
 .filtre_onglet {
-border: 2px solid #f2f2f2;
-height: 50px;
-border-radius: 30px;
-margin-right: 30px;
-display: flex;
-justify-content: space-between;
-align-items: center;
+  border: 2px solid #f2f2f2;
+  height: 50px;
+  border-radius: 30px;
+  margin-right: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-
-.filtre_texte{
-height: 50px;
-padding-left: 20px;
-padding-right: 20px;
-border-radius: 0px 25px 25px 0px;
-display: flex;
-justify-content: center;
-align-items: center;
-font-weight: bold;
+.filtre_texte {
+  height: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 0px 25px 25px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
 }
-
 .filtre_icon {
   background-color: #deebff;
   color: #0065fc;
@@ -232,30 +184,24 @@ font-weight: bold;
   height: 50px;
   margin-left: -2px;
 }
-.filtre_onglet:hover{
+.filtre_onglet:hover {
   cursor: pointer;
   background: #DEEBFF;
 }
-
 .filtre_onglet:hover .filtre_icon {
   background: white;
 }
-
 /*******point info****/
-.bloc_info
-{display: flex;
+.bloc_info {
+  display: flex;
   margin-bottom: 10px;
 }
-
-
 .fa-info {
- 
   background-color: white;
   border: #f2f2f2 2px solid;
   color: #0065fc;
   border-radius: 25px 25px 25px 25px;
   padding: 5px 10px 5px 10px;
-
   margin-right: 10px;
   margin-left: 10px;
   position: absolute;
@@ -263,60 +209,40 @@ font-weight: bold;
 .info {
   display: flex;
   flex-direction: row;
-
 }
-
 .titreinfo {
-  
   margin-top: 6px;
   margin-left: 50px;
   font-weight: normal;
   font-size: 1em;
-  
 }
-
 /**container heberge+populaire**/
-
-
 #bloc_heb_pop {
   display: flex;
-  
   margin-left: 10px;
   margin-right: 10px;
-  
-  
 }
-
 /**hébergements**/
-
 #section_hebergement {
   background-color: #f2f2f2;
   border-radius: 15px 15px 15px 15px;
   width: 66%;
- 
   margin-right: 20px;
 }
-
 .bloc_titre_heb {
-  
   color: black;
   margin-bottom: 0px;
   margin-left: 48px;
   margin-right: 48px;
 }
-
-
-
 .heb_titre {
   font-size: 1.2em;
   color: black;
   font-weight: bold;
   margin-top: 30px;
 }
-
 .heb_groupe_article {
   display: flex;
- 
   justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
@@ -324,7 +250,6 @@ font-weight: bold;
   margin-left: 25px;
   margin-top: 25px;
 }
-
 .heb_article {
   background-color: white;
   box-shadow: 3px 5px 3px rgb(233, 226, 226);
@@ -335,19 +260,10 @@ font-weight: bold;
   height: 200px;
   margin-right: 5px;
 }
-
-
-
 .heb_article:hover {
 cursor :pointer;
 transform: scale(1.06);
 }
-
-
-
-
-
-
 .img0 {
   display: flex;
   border-radius: 10px 10px 0px 0px;
@@ -357,7 +273,6 @@ transform: scale(1.06);
   margin-top: 3px;
   object-fit: cover;
 }
-
 .heb_description {
   margin-left: 10px;
 }
@@ -371,19 +286,16 @@ transform: scale(1.06);
   font-weight: bold;
   color: black;
 }
-
 .heb_etoiles {
   color: #0065fc;
   font-size: 0.6em;
 }
-
 h4 {
   font-size: 1em;
   margin-left: 48px;
   margin-top: 15px;
   cursor: pointer;
 }
-
 /*********section populaire***********/
 .section_populaire {
   background-color: #f2f2f2;
@@ -394,8 +306,6 @@ h4 {
   width: 33%;
   height: auto;
 }
-
-
 .bloc_titre_pop {
   display: flex;
   justify-content: space-between;
@@ -405,7 +315,6 @@ h4 {
   margin-left: 48px;
   margin-right: 48px;
 }
-
 .pop_titre {
   font-size: 1.2em;
   color: black;
@@ -418,7 +327,6 @@ h4 {
   color: black;
   margin: 30px 0px 20px 0px;
 }
-
 .pop_photo_descriptif {
   display: flex;
   padding: 5px;
@@ -431,15 +339,10 @@ h4 {
   text-decoration: none;
   color: black;
 }
-
 .pop_photo_descriptif:hover {
   cursor :pointer;
-transform: scale(1.06);
+  transform: scale(1.06);
 }
-
-
-
-
 .pop_descriptif {
   display: flex;
   flex-direction: column;
@@ -451,56 +354,43 @@ transform: scale(1.06);
 .pop_nom_hotel {
   font-size: 0.8em;
 }
-
 .pop_tarif {
   margin-top: -40px;
   white-space: nowrap;
 }
-
 img {
   width: 130px;
   object-fit: cover;
   border-radius: 15px 0 0 15px;
 }
-
 .pop_etoiles {
   color: #0065fc;
   font-size: 0.6em;
 }
-
 span {
   color: rgb(207, 204, 204);
 }
-
 /**activites**/
-
-.bloc_activites {
-margin-left: 10px;
-margin-right: 10px;
-margin-bottom: 60px;
-
-max-width: 1350px;
+#bloc_activites {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 60px;
+  max-width: 1350px;
 }
-
-
 .activites_titre {
   font-size: 1.2rem;
   margin-top: 40px;
   margin-bottom: 28px;
 }
-
 .activites_groupe_article {
   display: flex;
- 
 }
-
 .pave_activites
 {
   display: flex;
   flex-direction: column;
   width: 25%;
 }
-
 .activites_intitule {
   font-size: 0.9em;
   color: black;
@@ -508,14 +398,12 @@ max-width: 1350px;
   padding-left: 10px;
   padding-top: 10px;
 }
-
 .art_bloc1 {
   background-color: white;
   box-shadow: 3px 5px 3px rgb(233, 226, 226);
   border-radius: 15px 15px 15px 15px;
   width: 90%;
 }
-
 .art_bloc1:hover {
   cursor :pointer;
   transform: scale(1.03);
@@ -540,9 +428,6 @@ max-width: 1350px;
   cursor :pointer;
   transform: scale(1.03);
 }
-
-
-
 .img1 {
   display: flex;
   border-radius: 15px 15px 0px 0px;
@@ -550,16 +435,13 @@ max-width: 1350px;
   height: 387px;
   object-fit: cover;
 }
-
 .art_bloc2 {
   background-color: white;
   box-shadow: 3px 5px 3px rgb(233, 226, 226);
   border-radius: 15px 15px 15px 15px;
   margin-bottom: 42px;
   width: 90%;
-  
 }
-
 .img2 {
   display: flex;
   border-radius: 15px 15px 0px 0px;
@@ -567,16 +449,12 @@ max-width: 1350px;
   height: 179px;
   object-fit: cover;
 }
-
 .art_bloc3 {
   background-color: white;
   box-shadow: 3px 5px 3px rgb(233, 226, 226);
   border-radius: 15px 15px 15px 15px;
-  
   width: 90%;
-
 }
-
 .img3 {
   display: flex;
   border-radius: 15px 15px 0px 0px;
@@ -584,15 +462,12 @@ max-width: 1350px;
   height: 110px;
   object-fit: cover;
 }
-
 .art_bloc4 {
   background-color: white;
   box-shadow: 3px 5px 3px rgb(233, 226, 226);
   border-radius: 15px 15px 15px 15px;
   width: 90%;
-  
 }
-
 .img4 {
   display: flex;
   border-radius: 15px 15px 0px 0px;
@@ -606,9 +481,7 @@ max-width: 1350px;
   border-radius: 15px 15px 15px 15px;
   margin-bottom: 42px;
   width: 90%;
-  
 }
-
 .img5 {
   display: flex;
   border-radius: 15px 15px 0px 0px;
@@ -616,15 +489,12 @@ max-width: 1350px;
   height: 140px;
   object-fit: cover;
 }
-
 .art_bloc6 {
   background-color: white;
   box-shadow: 3px 5px 3px rgb(233, 226, 226);
   border-radius: 15px 15px 15px 15px;
   width: 90%;
-  
 }
-
 .img6 {
   display: flex;
   border-radius: 15px 15px 0px 0px;
@@ -632,27 +502,26 @@ max-width: 1350px;
   height: 153px;
   object-fit: cover;
 }
-
 /**footer**/
-
-#bloc_footer {
-background-color: #f2f2f2;
-display: flex;
-max-width: 1440px;
-
-}
-
-.article_footer{
+#bloc_footer{
   display: flex;
-  flex-direction: column;
-  padding-right: 48px;
+  justify-content: space-between;
+  background-color: #f2f2f2;
   padding-left: 48px;
-  color: black;
+}
+.article_footer{
+  width: 70%;      
   padding-top: 20px;
   padding-bottom: 20px;
-  width: 70%;
   cursor: pointer;
 }
+.categorie_footer{
+  display: flex;
+  font-size: 0.8em;
+  margin-bottom: 10px;
+  color: black;
+}
+
 
 
 
