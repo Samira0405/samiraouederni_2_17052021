@@ -379,9 +379,13 @@ span {
   max-width: 1350px;
 }
 .activites_titre {
-  font-size: 1.2rem;
   margin-top: 40px;
   margin-bottom: 28px;
+}
+
+
+.act_titre{
+  font-size: 1.2em;
 }
 .activites_groupe_article {
   display: flex;
