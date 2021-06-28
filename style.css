@@ -303,7 +303,7 @@ h4 {
   display: flex;
   margin-left: 20px;
   flex-direction: column;
-  width: 33%;
+  width: auto;
   height: auto;
 }
 .bloc_titre_pop {
@@ -350,6 +350,7 @@ h4 {
   padding-bottom: 5px;
   padding-right: 35px;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .pop_nom_hotel {
   font-size: 0.8em;
