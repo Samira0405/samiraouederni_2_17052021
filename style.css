@@ -253,7 +253,7 @@ h1 {
 .heb_article {
   background-color: white;
   box-shadow: 3px 5px 3px rgb(233, 226, 226);
-  border: 1px white solid;
+  border: 1px transparent solid;
   border-radius: 10px 10px 10px 10px;
   margin-bottom: 25px;
   width: 235px;
@@ -382,8 +382,6 @@ span {
   margin-top: 40px;
   margin-bottom: 28px;
 }
-
-
 .act_titre{
   font-size: 1.2em;
 }
@@ -408,30 +406,6 @@ span {
   box-shadow: 3px 5px 3px rgb(233, 226, 226);
   border-radius: 15px 15px 15px 15px;
   width: 90%;
-}
-.art_bloc1:hover {
-  cursor :pointer;
-  transform: scale(1.03);
-}
-.art_bloc2:hover{
-  cursor :pointer;
-  transform: scale(1.03);
-}
-.art_bloc3:hover{
-  cursor :pointer;
-  transform: scale(1.03);
-}
-.art_bloc4:hover{
-  cursor :pointer;
-  transform: scale(1.03);
-}
-.art_bloc5:hover{
-  cursor :pointer;
-  transform: scale(1.03);
-}
-.art_bloc6:hover{
-  cursor :pointer;
-  transform: scale(1.03);
 }
 .img1 {
   display: flex;
@@ -506,6 +480,30 @@ span {
   width: 100%;
   height: 153px;
   object-fit: cover;
+}
+.art_bloc1:hover {
+  cursor :pointer;
+  transform: scale(1.03);
+}
+.art_bloc2:hover{
+  cursor :pointer;
+  transform: scale(1.03);
+}
+.art_bloc3:hover{
+  cursor :pointer;
+  transform: scale(1.03);
+}
+.art_bloc4:hover{
+  cursor :pointer;
+  transform: scale(1.03);
+}
+.art_bloc5:hover{
+  cursor :pointer;
+  transform: scale(1.03);
+}
+.art_bloc6:hover{
+  cursor :pointer;
+  transform: scale(1.03);
 }
 /**footer**/
 #bloc_footer{
