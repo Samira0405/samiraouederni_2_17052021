@@ -1,9 +1,3 @@
-/* * {
-  outline: 2px red dashed;
-} */
-
-
-
 /****body*****/
 body {
   font-family: "Raleway", sans-serif;
@@ -24,7 +18,7 @@ p {
   margin-left: 0px;
   color: black;
 }
-/*******header*********/
+/*******barre de navigation*********/
 header {
   max-width: 1440px;
   margin:auto;
@@ -176,7 +170,7 @@ h1 {
 .filtre_icon {
   background-color: #deebff;
   color: #0065fc;
-  border: #deebff 2px solid;
+  border: #dbe9fd 2px solid;
   display: flex;
   align-items: center;
   justify-content: center;
